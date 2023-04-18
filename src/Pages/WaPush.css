@@ -1,0 +1,10 @@
+.log{
+    width: 400px; 
+    height: 70vh;
+    background-color: black;
+    color: white;
+    overflow: auto; 
+}
+.dataCenter{
+    width: 800px;
+}

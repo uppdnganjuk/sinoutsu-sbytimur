@@ -1,0 +1,14 @@
+.background{
+    width: 100vw;
+}
+.judul{
+    /* position: absolute; */
+    color: whitesmoke;
+    width: 100vw;
+    font-size: large;
+    text-transform: uppercase;
+    background-color: #6798C1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

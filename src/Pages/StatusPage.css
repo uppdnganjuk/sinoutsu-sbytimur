@@ -1,0 +1,24 @@
+.printArea{
+    display: none
+}
+.paragraph{
+    text-align: justify;
+}
+.border{
+    border: 2px;
+}
+@media print{
+    .printArea{
+        display: block;
+    }
+    .noprintArea{
+        display: none;
+    }
+}
+.imageLampiran{
+    width: 700px;
+}
+.logoHaha{
+    height: 80px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+.tombolCari{
+    height: 100%;
+}
+#tanggalSurat{
+    width:50vw;
+}
+.printArea{
+    display: none;
+}
+@media print{
+    .printArea{
+        display: block;
+    }
+    .noprintArea{
+        display: none;
+    }
+}

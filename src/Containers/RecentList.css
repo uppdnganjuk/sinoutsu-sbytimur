@@ -1,0 +1,21 @@
+.recent-body{
+    padding: 5px;
+}
+.recent-date{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.recent-card{
+    padding: 0px;
+    margin-bottom: 5px;
+}
+.recent-perihal{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-weight:0px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.recent-number{
+    font-size: 12px;
+}

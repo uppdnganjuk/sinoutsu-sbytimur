@@ -1,0 +1,10 @@
+.numberAvailable:hover {
+    cursor: pointer;
+    background-color: green;
+}
+.notAvailable{
+    background-color: red;
+}
+.notAvailable:hover{
+    background-color: red;
+}
