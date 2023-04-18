@@ -11,7 +11,7 @@ class HomePage extends React.Component{
     
     validateAdmin = ()=>{
         if(localStorage.getItem("key") == config.key){
-            window.location = "/home";
+            window.location = "/nomorkeluar";
             return;
         }
     }
@@ -19,7 +19,7 @@ class HomePage extends React.Component{
         return(
             <div className="PageContainer">
                 <LoginForm />
-                <a href="https://peratif.uptppdnganjuk.site"></a>
+                {/* <a href="https://peratif.uptppdnganjuk.site"></a> */}
                 <Footers />
             </div>
         )

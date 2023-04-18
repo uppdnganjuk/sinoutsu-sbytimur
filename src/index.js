@@ -18,7 +18,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Route exact path="/" component={NomorPage}></Route>
+    <Route exact path="/" component={HomePage}></Route>
     <Route path="/home" component={NomorPage}></Route>
     <Route path="/nomormasuk" component={NomorMasukPage}/>
     <Route path="/sipekat" component={SipekatPage}></Route>

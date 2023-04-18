@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "./LoginForm.css";
 import config from "../config.json";
 
-import logoBaru from '../Images/logobaru.png';
+import logoBaru from '../Images/sinoutsu.png';
 
 class LoginForm extends React.Component{
     loginValidate = () => {
