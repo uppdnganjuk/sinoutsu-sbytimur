@@ -34,7 +34,7 @@ class RecentList extends React.Component{
     }
     getSuratFullName = (props)=>{
         try{
-            return props.dasarhukum + "/" + props.nomorsurat +"/202.620/" + props.tanggal.toString().split("-")[0]
+            return props.dasarhukum + "/" + props.nomorsurat +"/202.601/" + props.tanggal.toString().split("-")[0]
         }catch(a){
             return "XXX/XXX/XXX"
         }

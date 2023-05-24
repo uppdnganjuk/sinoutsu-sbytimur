@@ -38,7 +38,7 @@ class NomorPage extends React.Component{
         tujuan = document.getElementById("tujuanSurat").value;
         dasar = this.getDasarHukum();
         pembuat = document.getElementById("pembuatSurat").value
-        nomorSurat = dasar + "/" + nomor + "/202.620/" + document.getElementById("datePicked").value.split("-")[0]
+        nomorSurat = dasar + "/" + nomor + "/202.601/" + document.getElementById("datePicked").value.split("-")[0]
         document.getElementById("tanggalPreview").innerHTML = date;
         document.getElementById("nomorPreview").innerHTML = nomorSurat;
         document.getElementById("perihalPreview").innerHTML = perihal;

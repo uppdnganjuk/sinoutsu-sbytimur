@@ -21,7 +21,7 @@ class ArsipCard extends React.Component{
         //     alert("Anda Bukan Admin")
         //     return;
         // }else{
-            let confirmation = window.confirm("Yakin ingin menghapus nomor " + this.props.dasar + "/" + this.props.nomor +"/202.620/" + this.props.tanggal.split("-")[0])
+            let confirmation = window.confirm("Yakin ingin menghapus nomor " + this.props.dasar + "/" + this.props.nomor +"/202.601/" + this.props.tanggal.split("-")[0])
             if(confirmation){
                 
                 document.getElementById("loadingScreen").classList.remove("hide");
@@ -46,7 +46,7 @@ class ArsipCard extends React.Component{
         let editTujuan = document.getElementById("edit-tujuan")
         editEntri.value = this.props.entrydate.split("T")[0]
         editTanggal.value = this.props.tanggal
-        editNomor.value = this.props.dasar + "/" + this.props.nomor +"/202.620/" + this.props.tanggal.split("-")[0]
+        editNomor.value = this.props.dasar + "/" + this.props.nomor +"/202.601/" + this.props.tanggal.split("-")[0]
         editPerihal.value = this.props.perihal
         editPengguna.value = this.props.pembuat
         editTujuan.value = this.props.tujuan
@@ -65,7 +65,7 @@ class ArsipCard extends React.Component{
                     </div>
                     <div>
                         <b className="mt-2 judulKartu">Nomor</b>
-                        <p className="mb-0">{this.props.dasar + "/" + this.props.nomor +"/202.620/" + this.props.tanggal.split("-")[0]}</p>
+                        <p className="mb-0">{this.props.dasar + "/" + this.props.nomor +"/202.601/" + this.props.tanggal.split("-")[0]}</p>
                         <b className="mt-2 judulKartu">Perihal</b>
                         <p className="mb-0" style={{textAlign:"justify"}}>{this.props.perihal}</p>
                     </div>
